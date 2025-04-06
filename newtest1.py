@@ -6,8 +6,8 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
 # GitHub OAuth configuration
-client_id = "Ov23liAvKwVKlJkoty1K"
-client_secret = "2dfec260a3df780a715b2c5971fb26b9c6fac773"
+client_id = ""
+client_secret = ""
 redirect_uri = "http://127.0.0.1:5000/callback"
 
 # GitHub API endpoints

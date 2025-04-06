@@ -6,8 +6,8 @@ import os
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
-client_id = "Ov23liAJrcyataMIbRCE" #sarthak'sid
-client_secret = "ab61f566ebabb272cb114fd975bd751eb23c5b3b" #sarthak'ssecret
+client_id = "" #sarthak'sid
+client_secret = "" #sarthak'ssecret
 # client_id = " " #your id
 # client_secret = " " #your secret
 redirect_uri = "http://127.0.0.1:5000/callback"
